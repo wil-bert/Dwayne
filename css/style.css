@@ -1,0 +1,10 @@
+body{
+    background-image: url(/images/IMG_5379.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+}
+img{
+    height: 100vh;
+    width: 100vw;
+}
