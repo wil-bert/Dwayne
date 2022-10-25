@@ -40,7 +40,6 @@ body{
 .container{
     display: flex;
     align-items: center;
-    height: 100vh;
     margin-top: 5px;
     /* padding-top: 20px; */
 }
@@ -189,5 +188,6 @@ span {
 /* ............................about,........................................... */
 li{
   display: flex;
+  font-family: 'Eczar', serif ;
 
 }
