@@ -191,3 +191,40 @@ li{
   font-family: 'Eczar', serif ;
 
 }
+/* ........................gallery..................................... */
+.row-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+}
+
+/* Create four equal columns that sits next to each other */
+.column-0 {
+  flex: 50%;
+  max-width: 100%;
+  padding: 0 5px;
+}
+
+.column-0 img {
+  margin-top: 8px;
+  vertical-align: middle;
+  height: 80vh;
+  width: 30vw;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 600px) {
+  .column-0 {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .column-0 {
+    flex: 50%;
+    max-width: 100%;
+  }
+}
