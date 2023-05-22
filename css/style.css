@@ -1,3 +1,5 @@
+
+
 body{
   background-image: url(/images/IMG_3965.jpg);
   background-size: cover;
@@ -10,22 +12,40 @@ body{
 .jumbotron{
   display: flexbox;
   text-align: center;
-  align-items: center;
+  justify-content: center;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
-  background-color: rgba(0, 0, 0, 0.39);
+  background-color: rgba(0, 0, 0, 0.671);
   width: 60%;
   border-radius: 5px;
 }
 h1{
-  color: rgb(252, 245, 245);
+  color: rgba(255, 209, 2, 0.733);
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
+  font-size: 50px;
+  text-decoration: underline;
   
 }
+.button-2 {
+  color: #fff;
+  
+  background-image: -webkit-linear-gradient(30deg, #d69200 50%, transparent 50%);
+  background-image: linear-gradient(30deg, #ddab21 50%, transparent 50%);
+  background-size: 500px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  -webkit-transition: background 200ms ease-in-out;
+  transition: background 200ms ease-in-out;
+}
+.button-2:hover {
+  background-position: 100%;
+  color: #e2cc00;
+  background-color: #000000;
+}
 
-/* @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 @keyframes scale {
 100% {
@@ -35,7 +55,7 @@ h1{
 span {
 opacity: 0;
 font-size: 45px;
-color: white;
+color: rgba(167, 140, 17, 0.863);
 filter: blur(4px);
 }
 
@@ -155,6 +175,18 @@ span:nth-child(32) {
 span:nth-child(33) {
   animation: fade-in 0.8s 3.3s forwards cubic-bezier(0.11, 0, 0.5, 0);
 }
+span:nth-child(34) {
+  animation: fade-in 0.8s 3.4s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(35) {
+  animation: fade-in 0.8s 3.5s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(36) {
+  animation: fade-in 0.8s 3.6s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
+span:nth-child(37) {
+  animation: fade-in 0.8s 3.7s forwards cubic-bezier(0.11, 0, 0.5, 0);
+}
 
 
 @keyframes fade-in {
@@ -162,4 +194,4 @@ span:nth-child(33) {
   opacity: 1;
   filter: blur(0);
 }
-} */
+}  
