@@ -21,30 +21,26 @@ body{
   border-radius: 5px;
 }
 h1{
-  color: rgba(255, 209, 2, 0.733);
+  color: rgba(255, 208, 0, 0.733);
   font-family: 'Times New Roman', Times, serif;
   font-weight: bolder;
   font-size: 50px;
   text-decoration: underline;
   
 }
-.button-2 {
-  color: #fff;
-  
-  background-image: -webkit-linear-gradient(30deg, #d69200 50%, transparent 50%);
-  background-image: linear-gradient(30deg, #ddab21 50%, transparent 50%);
-  background-size: 500px;
-  background-repeat: no-repeat;
-  background-position: 0%;
-  -webkit-transition: background 200ms ease-in-out;
-  transition: background 200ms ease-in-out;
+.btns_more {
+  background: black;
+  border: 1px solid goldenrod;
+  border-radius: 50px;
+  padding: 8px 12px;
+  color: #bdbf30;
+  font-size: 16px;
+  text-transform: uppercase;
+  position: relative;
+  outline: none;
+  transform: translateY(50px);
+  animation: slideUp .8s ease-in-out  forwards 1s;
 }
-.button-2:hover {
-  background-position: 100%;
-  color: #e2cc00;
-  background-color: #000000;
-}
-
 @import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
 
 @keyframes scale {
